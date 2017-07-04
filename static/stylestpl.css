@@ -1,0 +1,21 @@
+
+body
+{
+    color:Black;
+    text-align: center;
+    font-size: large;
+    background-color:lightblue;
+}
+
+img
+{
+    border-style:double;
+    border-width: 5px;
+    border-color:red;
+}
+
+#pagepic
+{
+    width:80%;
+    height:60%;
+}

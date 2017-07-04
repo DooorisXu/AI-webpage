@@ -1,0 +1,23 @@
+ {% extends "layout.html" %}
+
+    {% block title %}
+        What can AI do?  The Applications of AI
+    {% endblock %}
+    
+    {% block body %}
+        <p>
+        What can AI do?  The Applications of AI:
+        </p>
+       <li>
+           AI can work in deadly environments: Robots can survive where no human can, in places like deep space, the oceanic benthos, or inside a radioactive reactor. The trouble has been that they could not perform at the dexterity and intelligence level of humans. As robotics pioneer Hans Moravec has famously noted, although high-level reasoning is relatively cheap to implement when it comes to low-level sensorimotor skills AI needs enormous computational resources. In other words, human babies can do more complex things with their bodies than the most sophisticated robots. But not any more: a UC Berkley team used deep learning to teach robots fine motor skills, such as screw caps on bottles, or use the back of a hammer to remove a nail from wood. The technique simulates eye-hand coordination in humans and the research results show that robots can now match human dexterity and speed
+       </li>
+       <p>
+           <img alt="p2pic" src="{{ url_for('static', filename='p2pic.jpeg') }}"/>
+       </p>
+       <li>
+          Translate in many languages:In the Hitchhiker/'s Guide to the Galaxy the babelfish was a fictitious alien fish that performed instant translation once inserted into one/'s ear. AI is catching up quickly with science fiction, as so-called machine translation is finally coming of age. The Google Translate app can instantly translate text in 27 languages. And Skype is using neural network technology that mimics the human brain in order to understand human speech and instantly translate from English to Spanish. At Microsoft, who own Skype, are beta testing the method with a view to expand it in any language, and thus facilitate face-to-face communication between humans with no knowledge of each others language 
+       </li>
+        <p>
+        Go Back to <a href="{{ url_for('home') }}">Homepage</a>.
+        </p>
+    {% endblock %}

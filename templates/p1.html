@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+    {% block title %}
+    First Thing First. What is AI?
+    {% endblock %}
+    
+    {% block body %}
+        <ul>
+        <p>
+            What is AI: AI or artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. These processes include learning (the acquisition of information and rules for using the information), reasoning (using the rules to reach approximate or definite conclusions), and self-correction. Particular applications of AI include expert systems, speech recognition and machine vision
+        </p>
+        
+        <div>
+            <img alt="p1pic" src="{{ url_for('static', filename='p1pic.jpeg') }}"/>
+        </div>
+        <p>
+            Different Tyes of AI:
+        </p>
+        <li>
+            Weak AI, also known as narrow AI, is an AI system that is designed and trained for a particular task. Virtual personal assistants, such as Apple's Siri, are a form of weak AI.
+        </li>
+        <li>
+            Strong AI, also known as artificial general intelligence, is an AI system with generalized human cognitive abilities so that when presented with an unfamiliar task, it has enough intelligence to find a solution.
+        </li>
+        <li>
+            The Turing Test, developed by mathematician Alan Turing in 1950, is a method used to determine if a computer can actually think like a human, although the method is controversial
+        </li>
+        </ul>
+        <p>
+        Go Back to <a href="{{ url_for('home') }}">Homepage</a>.
+        </p>
+    {% endblock %}
+    

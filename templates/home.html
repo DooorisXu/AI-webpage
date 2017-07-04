@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}
+A brief introduction to AI 
+{% endblock %}
+
+{% block body %}
+    {% block ul %}
+    <p>
+         <img id="pagepic" alt="pagepic" src="{{ url_for('static', filename='pagepic.jpg') }}"/>
+    </p>
+    <p>
+        First Thing First <a href="{{ url_for('p1') }}">What is AI?</a>.
+    </p>
+    <p>
+        What can AI do? <a href="{{ url_for('p2') }}">The applications of AI</a>
+    </p>
+    {% endblock %}
+{% endblock %}
